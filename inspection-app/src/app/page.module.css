@@ -1,0 +1,19 @@
+.wrap { min-height: 100vh; background: #F0F4F8; font-family: 'Sarabun', sans-serif; }
+.header { background: #1B4F8A; padding: 14px 20px; display: flex; align-items: center; gap: 12px; }
+.headerIcon { background: rgba(255,255,255,0.15); border-radius: 8px; padding: 8px 10px; font-size: 20px; }
+.headerTitle { color: #fff; font-size: 15px; font-weight: 600; }
+.headerSub { color: rgba(255,255,255,0.65); font-size: 12px; margin-top: 2px; }
+.body { max-width: 900px; margin: 0 auto; padding: 18px 16px; }
+.card { background: #fff; border-radius: 12px; padding: 24px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+.nav { display: flex; justify-content: space-between; align-items: center; margin-top: 24px; padding-top: 16px; border-top: 1px solid #E2E8F0; }
+.counter { font-size: 12px; color: #718096; }
+.btnPrev { padding: 9px 18px; border-radius: 8px; border: 1px solid #CBD5E0; background: #F7FAFC; color: #4A5568; cursor: pointer; font-size: 13px; font-family: inherit; }
+.btnPrev:disabled { opacity: 0.4; cursor: default; }
+.btnNext { padding: 9px 20px; border-radius: 8px; border: none; background: #1B4F8A; color: #fff; cursor: pointer; font-size: 13px; font-weight: 600; font-family: inherit; }
+.btnGenerate { padding: 9px 22px; border-radius: 8px; border: none; background: #276749; color: #fff; cursor: pointer; font-size: 13px; font-weight: 600; font-family: inherit; }
+.btnGenerate:disabled { opacity: 0.6; cursor: default; }
+.toast { position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%); background: #2D3748; color: #fff; padding: 10px 22px; border-radius: 8px; font-size: 13px; font-family: inherit; z-index: 999; white-space: nowrap; }
+.chips { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-top: 12px; padding: 10px 14px; background: #fff; border-radius: 10px; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+.chipsLabel { font-size: 11px; font-weight: 600; color: #718096; margin-right: 4px; white-space: nowrap; }
+.chip { display: inline-flex; align-items: center; gap: 4px; padding: 3px 8px 3px 10px; background: #EBF8FF; border: 1px solid #90CDF4; border-radius: 20px; font-size: 11px; color: #1B4F8A; font-family: inherit; font-weight: 600; }
+.chipDel { background: none; border: none; color: #4A90D9; cursor: pointer; font-size: 14px; line-height: 1; padding: 0 0 0 2px; margin-left: 2px; }
